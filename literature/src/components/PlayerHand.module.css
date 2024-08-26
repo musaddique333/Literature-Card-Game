@@ -1,0 +1,16 @@
+.HandContainer {
+	display: flex;
+	position: fixed;
+	transition:
+		left 250ms ease,
+		bottom 250ms ease;
+	bottom: -10.5dvh;
+	left: calc(50% - var(--hand-container-offset));
+}
+
+.HandContainerTopRow {
+	bottom: -3.5dvh;
+}
+.HandContainerBottomRow {
+	bottom: -9.5dvh;
+}
