@@ -72,7 +72,6 @@ export const breakpoints = {
 }
 
 const layout: LayoutTheme = {
-	spacingUnit: 4, // in px
 	fontSize: {
 		tiny: '0.75rem', // text-tiny
 		small: '0.875rem', // text-small
